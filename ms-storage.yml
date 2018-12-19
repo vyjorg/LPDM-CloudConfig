@@ -13,7 +13,7 @@ spring:
 
   # DATASOURCE
   datasource:
-    url: jdbc:postgresql://5.196.95.68:28189/lpdm-storage
+    url: jdbc:postgresql://91.121.110.162:28189/lpdm-storage
     username: lpdm
     password: lpdm
 
