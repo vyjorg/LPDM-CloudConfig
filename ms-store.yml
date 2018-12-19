@@ -1,0 +1,29 @@
+# SERVER
+server:
+  port: 28084
+
+# SPRING
+spring:
+
+  # CLOUD
+  cloud:
+    config:
+      overrideNone: true
+      overrideSystemProperties: false
+
+  # DATASOURCE
+  datasource:
+    url: jdbc:postgresql://91.121.110.162:28184/lpdm-store
+    username: lpdm
+    password: lpdm
+
+  # HIBERNATE
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        temp.use_jdbc_metadata_defaults: false
