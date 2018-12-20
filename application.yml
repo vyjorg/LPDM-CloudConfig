@@ -1,0 +1,38 @@
+# GLOBAL PROPERTIES
+lpdm:
+    accounting:
+        name: ms-accounting
+        uri: https://accounting.lpdm.kybox.fr
+    auth:
+        name: ms-auth
+        uri: https://auth.lpdm.kybox.fr
+    config:
+        name: ms-config
+        uri: https://config.lpdm.kybox.fr
+    eureka:
+        name: ms-eureka
+        uri: https://eureka.lpdm.kybox.fr
+    location:
+        name: ms-location
+        uri: https://location.lpdm.kybox.fr
+    order:
+        name: ms-order
+        uri: https://order.lpdm.kybox.fr
+    product:
+        name: ms-product
+        uri: https://product.lpdm.kybox.fr
+    stock:
+        name: ms-stock
+        uri: https://stocke.lpdm.kybox.fr
+    storage:
+        name: ms-storage
+        uri: https://storage.lpdm.kybox.fr
+    store:
+        name: ms-store
+        uri: https://store.lpdm.kybox.fr
+    user:
+        name: ms-user
+        uri: https://user.lpdm.kybox.fr
+    zuul:
+        name: ms-zuul
+        uri: https://zuul.lpdm.kybox.fr
