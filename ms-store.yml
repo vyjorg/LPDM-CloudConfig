@@ -14,7 +14,7 @@ spring:
   # DATASOURCE
   datasource:
     url: ENC(er5WytigFa8IK7egoJ6TB8+0pq0vva8pRYr/VoN+Hso2RvPK3JzDJ3z58DLcds4WIbBpYN9/9QpZZhXrtR6Bow==)
-    username: ENC(Mhn6DjftFQDGj6uRC8ihCA==)
+    username: ENC(A1gxNtVCQq6FkAcAY7R5pA==)
     password: ENC(a5YM8tTfLZ08v+BqjPGN7A==)
 
   # HIBERNATE
@@ -26,4 +26,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        temp.use_jdbc_metadata_defaults: false
+        temp:
+            use_jdbc_metadata_defaults: false
