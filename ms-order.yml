@@ -1,0 +1,30 @@
+# SERVER
+server:
+  port: 28083
+
+# SPRING
+spring:
+
+  # CLOUD
+  cloud:
+    config:
+      overrideNone: true
+      overrideSystemProperties: false
+
+  # DATASOURCE
+  datasource:
+    url: ENC(ws0fS6ua325qXHlbgnt8RMq3W3GVZjp0RBdQnOb8h5hx0MdAUdpD2JDvciJ9ikDxSYEJqpWHGB5H9IM6k820zw)
+    username: ENC(GUgpWYpRnCu1J5i/zNB9tg==)
+    password: ENC(Arbfx33WVvITNwr2P400LQ==)
+
+  # HIBERNATE
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        temp:
+            use_jdbc_metadata_defaults: false
