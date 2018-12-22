@@ -13,9 +13,9 @@ spring:
 
   # DATASOURCE
   datasource:
-    url: jdbc:postgresql://91.121.110.162:28189/lpdm-storage
-    username: lpdm
-    password: lpdm
+    url: ENC(R2pcLBnmx3T0wfJEOhK03Ff6X9zQ/PJvfU0mictdb6u/7Pl0rC4qM9i5plU9tvs5pvc5SH2M+Rj06rJrn4gUaA==)
+    username: ENC(gW4c5NaOiZA3WF10YRKOzA==)
+    password: ENC(GSuud9iHG3IAXmFoVylmEA==)
 
   # HIBERNATE
   jpa:
