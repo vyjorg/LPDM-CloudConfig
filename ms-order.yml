@@ -28,8 +28,3 @@ spring:
         format_sql: true
         temp:
             use_jdbc_metadata_defaults: false
-            
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://eureka.kybox.fr/eureka
