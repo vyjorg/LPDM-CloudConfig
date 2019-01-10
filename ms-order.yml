@@ -32,4 +32,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://eureka.kybox.fr
+      defaultZone: https://eureka.kybox.fr/eureka/
