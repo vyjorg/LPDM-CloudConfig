@@ -34,5 +34,5 @@ lpdm:
         name: ms-user
         uri: https://user.lpdm.kybox.fr
     zuul:
-        name: ms-zuul
+        name: zuul-server
         uri: https://zuul.lpdm.kybox.fr
