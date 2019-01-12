@@ -1,21 +1,24 @@
-# SERVER
-server.port=28085
-
-# CLOUD
-spring.cloud.config.overrideNone=true
-spring.cloud.config.overrideSystemProperties=false
-
-# HIBERNATE
-spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=validate
-spring.jpa.properties.hibernate.format_sql=true
-spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL94Dialect
-spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults=false
-
-# DATASOURCE
-spring.datasource.url=jdbc:postgresql://91.121.110.162:28186/db_stock
-spring.datasource.username=usr_stock
-spring.datasource.password=stock
-
-#Eureka
-eureka.client.serviceUrl.defaultZone=https://eureka.lpdm.kybox.fr/eureka
+server:
+  port: 28085
+spring:
+  cloud:
+    config:
+      overrideNone: true
+      overrideSystemProperties: false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+  datasource:
+    url: jdbc:postgresql://91.121.110.162:28186/db_stock
+    username: usr_stock
+    password: stock
+eureka:
+  client:
+    serviceUrl: {"defaultZone":"https://eureka.lpdm.kybox.fr/eureka"}
