@@ -23,7 +23,7 @@ lpdm:
         uri: https://product.lpdm.kybox.fr
     stock:
         name: ms-stock
-        uri: https://stocke.lpdm.kybox.fr
+        uri: https://stock.lpdm.kybox.fr
     storage:
         name: ms-storage
         uri: https://storage.lpdm.kybox.fr
