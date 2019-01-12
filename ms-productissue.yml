@@ -1,6 +1,5 @@
 # SERVER
-server.port=28086
-local.server.port=28086
+server.port=28085
 
 # CLOUD
 spring.cloud.config.overrideNone=true
