@@ -4,7 +4,7 @@ lpdm:
         name: ms-accounting
         uri: https://accounting.lpdm.kybox.fr
     auth:
-        name: ms-auth
+        name: microservice-authentication
         uri: https://auth.lpdm.kybox.fr
     config:
         name: ms-config
