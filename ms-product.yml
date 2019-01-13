@@ -16,7 +16,7 @@ spring:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
   datasource:
-    url: jdbc:postgresql://91.121.110.162:28185/db_product
+    url: jdbc:postgresql://91.121.110.162:28195/db_product
     username: usr_product
     password: product
 eureka:
