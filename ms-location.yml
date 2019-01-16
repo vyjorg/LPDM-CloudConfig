@@ -1,0 +1,24 @@
+server:
+  port: 28087
+spring:
+  cloud:
+    config:
+      overrideNone: true
+      overrideSystemProperties: false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+  datasource:
+    url: jdbc:postgresql://91.121.110.162:28187/db_location
+    username: usr_location
+    password: location
+eureka:
+  client:
+    serviceUrl: {"defaultZone":"https://eureka.lpdm.kybox.fr/eureka"}
