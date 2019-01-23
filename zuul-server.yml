@@ -27,37 +27,6 @@ zuul:
       url: https://location.lpdm.kybox.fr
     ms-storage:
       url: https://storage.lpdm.kybox.fr
-#######
-#zuul.routes.ms-userentity.url=http://localhost:28080
-#zuul.routes.microservice-authentication.url=https://auth.lpdm.kybox.fr
-#zuul.routes.microservice-users.url=https://lpdm.kybox.fr
-#zuul.routes.ms-order.url=https://order.lpdm.kybox.fr
-#zuul.routes.ms-store.url=https://store.lpdm.kybox.fr
-#zuul.routes.ms-product.url=https://product.lpdm.kybox.fr
-#zuul.routes.ms-stock.url=https://stock.lpdm.kybox.fr
-#zuul.routes.ms-location.url=https://location.lpdm.kybox.fr
-#zuul.routes.ms-storage.url=https://storage.lpdm.kybox.fr
-
-
-
-
-
-# APPLICATION
-#microservice.domain=localhost
-#microservice.userentity.name=ms-userentity
-#microservice.userentity.port=28080
-#microservice.auth.name=microservice-authentication
-#microservice.auth.port=28081
-#microservice.user.name=microservice-users
-#microservice.user.port=28082
-#microservice.order.name=ms-order
-#microservice.order.port=28083
-#microservice.store.name=ms-store
-#microservice.store.port=28084
-#microservice.product.name=ms-product
-#microservice.product.port=28085
-#microservice.location.name=ms-location
-#microservice.location.port=28087
 
 #EUREKA
 eureka:
@@ -65,3 +34,10 @@ eureka:
     serviceUrl:
       defaultZone:
         https://eureka.lpdm.kybox.fr/eureka
+
+#Spring Security
+spring:
+  security:
+    user:
+      name: utilisateur
+      password: mdp
