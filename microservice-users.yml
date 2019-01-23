@@ -43,4 +43,8 @@ microservice.product.name=ms-product
 microservice.product.port=28085
 
 #EUREKA
-eureka.client.serviceUrl.defaultZone=https://eureka.lpdm.kybox.fr/eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:
+        https://eureka.lpdm.kybox.fr/eureka
