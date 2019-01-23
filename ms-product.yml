@@ -16,9 +16,9 @@ spring:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
   datasource:
-    url: jdbc:postgresql://91.121.110.162:28185/db_product
-    username: usr_product
-    password: product
+    url: ENC(xLZloelc0deBrc8Hyz/bKx1sYwMY5+RYVzX8qgbTaZMNofMT7B+FhgVHBSgNnM/7K9vo/kpXMaREdzwA0okt6g==)
+    username: ENC(a2r8UGFjEn/US+jPTlXH+gcIrVO1dE3T)
+    password: ENC(ydmpEl7r5VSwztDCPt3ohg==)
 eureka:
   client:
     serviceUrl: {"defaultZone":"https://eureka.lpdm.kybox.fr/eureka"}

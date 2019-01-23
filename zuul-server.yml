@@ -14,7 +14,7 @@ zuul:
       url: https://auth.lpdm.kybox.fr
       sensitiveHeaders: Cookie,Set-Cookie
     microservice-users:
-      url: https://user.lpdm.kybox.fr
+      url: https://lpdm.kybox.fr
     ms-order:
       url: https://order.lpdm.kybox.fr
     ms-store:
@@ -27,6 +27,19 @@ zuul:
       url: https://location.lpdm.kybox.fr
     ms-storage:
       url: https://storage.lpdm.kybox.fr
+#######
+#zuul.routes.ms-userentity.url=http://localhost:28080
+#zuul.routes.microservice-authentication.url=https://auth.lpdm.kybox.fr
+#zuul.routes.microservice-users.url=https://lpdm.kybox.fr
+#zuul.routes.ms-order.url=https://order.lpdm.kybox.fr
+#zuul.routes.ms-store.url=https://store.lpdm.kybox.fr
+#zuul.routes.ms-product.url=https://product.lpdm.kybox.fr
+#zuul.routes.ms-stock.url=https://stock.lpdm.kybox.fr
+#zuul.routes.ms-location.url=https://location.lpdm.kybox.fr
+#zuul.routes.ms-storage.url=https://storage.lpdm.kybox.fr
+
+
+
 
 
 # APPLICATION
