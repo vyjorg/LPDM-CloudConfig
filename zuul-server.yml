@@ -60,4 +60,8 @@ zuul:
 #microservice.location.port=28087
 
 #EUREKA
-eureka.client.serviceUrl.defaultZone=https://eureka.lpdm.kybox.fr/eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:
+        https://eureka.lpdm.kybox.fr/eureka
