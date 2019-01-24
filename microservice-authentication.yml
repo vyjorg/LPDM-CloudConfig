@@ -21,7 +21,7 @@ spring:
         use_jdbc_metadata_defaults: false
   database-platform: org.hibernate.dialect.PostgreSQL94Dialect
   datasource:
-    url: https://auth.lpdm.kybox.fr/
+    url: jdbc:postgresql://auth.lpdm.kybox.fr/db_auth
     username: usr_auth
     password: auth
 
