@@ -33,3 +33,11 @@ eureka:
   client:
     service-url:
       defaultZone: https://eureka.lpdm.kybox.fr/eureka
+      
+# SWAGGER
+swagger:
+  api:
+    admin:
+      desc: Admin API to manager orders
+    orders:
+      desc: Orders main API
