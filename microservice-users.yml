@@ -29,15 +29,18 @@ spring:
 
 # HIBERNATE
 
+
+
+
+
+
+
 # APPLICATION
-microservice:
-  domain: localhost
-  auth:
-    name: microservice-authentication
-    port: 28081
-  product:
-    name: ms-product
-    port: 28085
+#microservice.domain=localhost
+#microservice.auth.name=microservice-authentication
+#microservice.auth.port=28081
+#microservice.product.name=ms-product
+#microservice.product.port=28085
 
 #EUREKA
 eureka:
