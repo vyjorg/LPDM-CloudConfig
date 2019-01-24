@@ -20,9 +20,11 @@ spring:
       temp:
         use_jdbc_metadata_defaults: false
   database-platform: org.hibernate.dialect.PostgreSQL94Dialect
-  h2:
-    console:
-      enabled: true
+  datasource:
+    url: db_auth
+    username: usr_auth
+    password: auth
+
 
 # APPLICATION
 microservice:
