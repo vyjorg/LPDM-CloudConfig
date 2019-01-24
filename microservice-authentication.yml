@@ -1,9 +1,8 @@
 # SERVER
 server:
-  port: 28082
+  port: 28081
 local:
-  server:
-    port: 28082
+  server.port: 28081
 
 # CLOUD
 spring:
@@ -21,23 +20,19 @@ spring:
       temp:
         use_jdbc_metadata_defaults: false
   database-platform: org.hibernate.dialect.PostgreSQL94Dialect
-
-# DATASOURCE
-#spring.datasource.url=jdbc:postgresql://5.196.95.68:28183/lpdm-order
-#spring.datasource.username=lpdm
-#spring.datasource.password=lpdm
-
-# HIBERNATE
+  h2:
+    console:
+      enabled: true
 
 # APPLICATION
 microservice:
   domain: localhost
-  auth:
-    name: microservice-authentication
-    port: 28081
-  product:
-    name: ms-product
-    port: 28085
+  location:
+    name: ms-location
+    port: 28087
+  user:
+    name: microservice-users
+    port: 28082
 
 #EUREKA
 eureka:
@@ -45,3 +40,6 @@ eureka:
     serviceUrl:
       defaultZone:
         https://eureka.lpdm.kybox.fr/eureka
+
+
+
