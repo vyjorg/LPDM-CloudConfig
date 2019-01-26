@@ -33,11 +33,8 @@ eureka:
   client:
     service-url:
       defaultZone: https://eureka.lpdm.kybox.fr/eureka
-      
-# SWAGGER
-swagger:
-  api:
-    admin:
-      desc: Admin API to manager orders
-    orders:
-      desc: Orders main API
+          
+# PAYPAL SANDBOX
+paypal:
+  cliend-id: ENC(skXmwY/crcUH/Vf1iMNQrYYxsn7TMN820DK01507eFPjFBn6Z5KiuQLfufCcGYt+lPQAB4c2/3X7ezLLxoybQBn2PNFwiTamCR0g6ESb9zrYDwj+4MfxKIiCINn53uK6)
+  secret: ENC(WhtIko+bQgE/8iPFc4nYPwTFL50F/ecRm5Y4pAcVASzyTx6NUdF8cIueNT9sItL+HgeS2QbKTwLr2tcce4yeEuuGTSPAfSUD8T/NGpZf0uU3QK3Wpr0tSVquLVmEJ0LJ)
