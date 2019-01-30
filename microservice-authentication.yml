@@ -21,9 +21,9 @@ spring:
           use_jdbc_metadata_defaults: false
   database-platform: org.hibernate.dialect.PostgreSQL94Dialect
   datasource:
-    url: jdbc:postgresql://91.121.110.162:28181/db_auth
-    username: usr_auth
-    password: auth
+    url: ENC(h2qvSCUWkBHTFlxy+mfiDh1EYiaceEYa6oUb80HyL+GRh6twHsayK6smh6BnE7eHEk1Jkz6lDFQ=)
+    username: ENC(J719E/Uw4xnmcshbbs1VRJ0HHF5UA0eh)
+    password: ENC(/Inc0qGzpgyyucPW8O/NhQ==)
 
 # APPLICATION
 microservice:
