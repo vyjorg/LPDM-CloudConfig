@@ -22,12 +22,13 @@ spring:
         use_jdbc_metadata_defaults: false
   database-platform: org.hibernate.dialect.PostgreSQL94Dialect
 
-# DATASOURCE
-#spring.datasource.url=jdbc:postgresql://5.196.95.68:28183/lpdm-order
-#spring.datasource.username=lpdm
-#spring.datasource.password=lpdm
-
-# HIBERNATE
+# JWT
+lpdm:
+  jwt:
+    header: Authorization
+    prefix: Bearer
+    expiration: 86400
+    secret: lpdm::jwtoken+s=
 
 
 
