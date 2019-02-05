@@ -13,7 +13,7 @@ spring:
 
   # DATASOURCE
   datasource:
-    url: ENC(f9wdmIU1m+XCMPHtbGtPuMWwM086f3V6lkoJRB63Pg0iD5ZxYE0QU3KsQGVAKtexG+DPvAMgh59foMz8Rqg9dg==)
+    url: ENC(OYm8wcO78VOVHopPPpBWi+5LdKCVTQ4jRlYSwfHpWtPsdB/d7oukFLl4NPb2gkDkW87lyAPv8ELthWBsCJ13KQ==)
     username: ENC(aLRQDMWGqspFONkQl63FfA==)
     password: ENC(pNcu3LX0qFhoE4t3omKKcA==)
 
