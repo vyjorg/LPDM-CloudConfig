@@ -14,8 +14,8 @@ spring:
   # DATASOURCE
   datasource:
     url: ENC(OYm8wcO78VOVHopPPpBWi+5LdKCVTQ4jRlYSwfHpWtPsdB/d7oukFLl4NPb2gkDkW87lyAPv8ELthWBsCJ13KQ==)
-    username: ENC(aLRQDMWGqspFONkQl63FfA==)
-    password: ENC(pNcu3LX0qFhoE4t3omKKcA==)
+    username: ENC(fRaHKrcgMtAgji170s6wag==)
+    password: ENC(E/vnj4z2pfo5sZWQ4nWHcg==)
 
   # HIBERNATE
   jpa:
