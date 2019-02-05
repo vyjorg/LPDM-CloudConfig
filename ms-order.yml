@@ -35,5 +35,5 @@ eureka:
           
 # PAYPAL SANDBOX
 paypal:
-  clientid: ENC(skXmwY/crcUH/Vf1iMNQrYYxsn7TMN820DK01507eFPjFBn6Z5KiuQLfufCcGYt+lPQAB4c2/3X7ezLLxoybQBn2PNFwiTamCR0g6ESb9zrYDwj+4MfxKIiCINn53uK6)
-  secret: ENC(WhtIko+bQgE/8iPFc4nYPwTFL50F/ecRm5Y4pAcVASzyTx6NUdF8cIueNT9sItL+HgeS2QbKTwLr2tcce4yeEuuGTSPAfSUD8T/NGpZf0uU3QK3Wpr0tSVquLVmEJ0LJ)
+  clientid: ENC(kH21xwh/QbdBKBvt0AndY4S+jVw9zmrvAk4UF3eD6yvRySt+i/NeCtBUBvzBPptLbBFXhu5t3aL2VTd0vK8Qu6HrLbLevCOSgUOq5+sBLP/sghTb8on0jJt90+s5u+Km)
+  secret: ENC(t4RsJF9rY3ONw1riN1oSIolFsVUd4tCCfxoXFaEKVt31bSCSGIg9ywrOVaW/x0lcPjUmLhz6P54bPe5atibA3zpunmvgW4a0T8c3k4VJPVb3xTq5OcPTnHyT7vPHs0Kl)
