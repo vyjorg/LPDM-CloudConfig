@@ -1,0 +1,24 @@
+# SERVER
+server:
+  port: 30000
+
+# CLOUD
+spring:
+  cloud:
+    config:
+      overrideNone: true
+      overrideSystemProperties: false
+
+# JWT
+lpdm:
+  jwt:
+    header: Authorization
+    prefix: Bearer
+    expiration: 86400
+    secret: ENC(4VXKOaomVMecGkIh0F3YVE+e66dFmNfFqibpKkU96fU=)
+
+#EUREKA
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka.lpdm.kybox.fr/eureka
