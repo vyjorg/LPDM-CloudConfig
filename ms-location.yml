@@ -6,7 +6,6 @@ spring:
       overrideNone: true
       overrideSystemProperties: false
   jpa:
-    show-sql: true
     hibernate:
       ddl-auto: validate
     properties:
